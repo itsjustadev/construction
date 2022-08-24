@@ -91,7 +91,7 @@ body {
   position: fixed;
   padding-top: 0.75vh;
   padding-left: 10vh;
-  padding-right: 42vh;
+  padding-right: 65vh;
   padding-bottom: 0.75vh;
   z-index: 5;
   top: 0;
@@ -129,6 +129,7 @@ body {
 .phone_item {
   text-decoration: none;
   color: white;
+  white-space: nowrap;
 }
 
 .phone_item:hover {
@@ -165,6 +166,7 @@ body {
   width: 40px;
   height: 24px;
 }
+
 .btn-menu_inner {
   position: relative;
   background-color: white;
@@ -191,7 +193,7 @@ body {
   bottom: -10px;
 }
 
-@media (max-width: 692px) {
+@media (max-width: 1244px) {
   .header-page_nav {
     display: none;
   }
