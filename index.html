@@ -9,6 +9,7 @@
 
     <title>Document</title>
   </head>
+
   <body>
     <!-- header -->
     <header class="header_page">
@@ -53,7 +54,9 @@
         <p class="section-top_info">Ответственное выполнение каждого заказа.</p>
         <h1 class="section-top_title">Примеры наших работ:</h1>
         <div class="section-top_button">
-          <button class="btn" type="button">Следующий объект →</button>
+          <button onclick="changeSlide()" class="btn" type="button">
+            Следующий объект →
+          </button>
         </div>
       </div>
     </section>
@@ -64,17 +67,16 @@
         src="img/people.jpg"
         alt=""
         class="section-about_img"
-        height="400px"
+        height="100%"
       />
       <div class="container section-about_container">
         <div class="section-about_content">
-          <h1 class="section_title section-about_title">О нас:</h1>
-          <p class="section-about_text">
-            Наши клиенты всегда остаются довольны
-          </p>
+          <h1 class="section_title section-about_title"></h1>
+          <p class="section-about_text"></p>
         </div>
       </div>
     </section>
     <!-- /About_us -->
+    <script src="app.js"></script>
   </body>
 </html>

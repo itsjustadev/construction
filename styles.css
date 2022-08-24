@@ -9,7 +9,43 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.section-top1 {
+  transition: 0.5s;
+  background: #2ca6da url(img/last.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+
+  padding-bottom: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 103vh;
+  top: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.section-top2 {
+  transition: 0.5s;
+  background: #2ca6da url(img/homelast.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+
+  padding-bottom: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 103vh;
+  top: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
 .section-top {
+  transition: 0.5s;
   background: #2ca6da url(img/house0.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -55,13 +91,13 @@ body {
   position: fixed;
   padding-top: 0.75vh;
   padding-left: 10vh;
-  padding-right: 10vh;
+  padding-right: 42vh;
   padding-bottom: 0.75vh;
   z-index: 5;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(248, 245, 245, 0.7);
   border: solid 3px;
   border-radius: 10px;
 }
@@ -172,5 +208,6 @@ body {
 
 .section-about {
   background: linear-gradient(#974141, #3578dc);
-  position: relative;
+  width: 100%;
+  /* position: relative; */
 }
