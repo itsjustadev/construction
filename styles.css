@@ -26,6 +26,7 @@ body {
   flex-direction: column;
   justify-content: end;
 }
+
 .section-top2 {
   transition: 0.5s;
   background: #2ca6da url(img/homelast.jpeg);
@@ -63,6 +64,10 @@ body {
 
 .section-top_container {
   display: flex;
+  position: absolute;
+  margin-top: 70vh;
+  margin-left: 10vh;
+  width: 50%;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);
@@ -88,10 +93,11 @@ body {
 }
 
 .header_page {
+  display: flex;
   position: fixed;
   padding-top: 0.75vh;
   padding-left: 10vh;
-  padding-right: 65vh;
+  padding-right: 10vh;
   padding-bottom: 0.75vh;
   z-index: 5;
   top: 0;
@@ -104,11 +110,14 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  white-space: nowrap;
+
+  /* justify-content: space-between; */
 }
 
 .header-page_end {
   display: flex;
+  padding-left: 20vh;
   align-items: center;
 }
 
@@ -127,6 +136,8 @@ body {
 }
 
 .phone_item {
+  /* position: absolute;
+  padding-left: 20vh; */
   text-decoration: none;
   color: white;
   white-space: nowrap;
@@ -185,6 +196,7 @@ body {
   position: absolute;
   left: 0;
 }
+
 .btn-menu_inner::before {
   top: -10px;
 }
@@ -197,19 +209,28 @@ body {
   .header-page_nav {
     display: none;
   }
+
   .header-page_hamburger {
     display: block;
   }
+
   .logo_img {
     margin-left: -55px;
   }
+
   .header-page_end {
     margin-left: 10px;
+  }
+
+  .header-page_end {
+    display: flex;
+    padding-left: 0vh;
+    align-items: center;
   }
 }
 
 .section-about {
   background: linear-gradient(#974141, #3578dc);
-  width: 100%;
+  width: 100vh;
   /* position: relative; */
 }
